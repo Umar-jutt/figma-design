@@ -1,0 +1,13 @@
+.line::before {
+    display: inline-block;
+    content: '';
+    height: 0;
+    width: 60px;
+    border-top: 3px solid #ffffff;
+}
+.list{
+    text-align: center;
+}
+.front{
+    background-image: url('./assets/bg-bunner-2.jpg');
+}
