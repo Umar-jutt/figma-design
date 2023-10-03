@@ -6,53 +6,133 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <title>Document</title>
 </head>
 <body>  
-  <section class="front"> 
-    <nav style="background-color: transparent"  class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <div class="heading" style="color: white;">
-            <h1 style="font-size: 55px;">Pesto<span style="position: absolute; font-size:14px; background-color: yellow; padding: 5px;">Free</span></h1>
-            <div>
-              <p>Italian Food</p>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod nisi recusandae consequatur ea officia porro ullam quas, voluptate modi aspernatur est itaque ipsa expedita delectus provident voluptatibus, neque laboriosam cupiditate.</p>
-            </div>
-          </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span style="background-color: white; color: black;" class="navbar-toggler-icon"></span>
-          </button>
-          <div  class="collapse navbar-collapse list" id="navbarSupportedContent">
-            <ul  class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a style="color: white;" class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a style="color: white;" class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a  style="color: white;"  class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Typography
-                </a>
-              </li>
-              <li class="nav-item">
-                <a style="color: white;"  class="nav-link disabled" aria-disabled="true">Contact Us</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <button class="btn" style="background-color: #29A22E; color: white;" type="submit"> <span style="margin-right: 10px;"><i class="fa-solid fa-cart-shopping"></i></span>Book Know</button>
-            </form>
+  <section class="nav-back">
+    <!-- <div style="display: flex;" class="container">
+      <h2 style="font-weight: bold; margin-top: 15px; font-family: sans-serif;">Medical Hardy</h2>
+      <div style="display: flex;" class="list">
+        <ul style="list-style: none; display: flex;">
+          <li>Home</li>
+          <li>Product</li>
+          <li>Pricing</li>
+          <li>Contact</li>
+        </ul>
+        <div style="display: flex; margin-left: 60%;" class="list-2">
+          <ul style="list-style: none; color: rgb(150, 187, 124); margin-top: 10px;">
+            <li>Login</li>
+          </ul>
+          <button style="display: flex; color: white; background-color: rgb(150, 187, 124); margin-left: 35px; padding: 10px 30px;" class="btn">joinUs <span><i style="margin-left: 10px;" class="fa fa-arrow-right"></i></span> </button>
+        </div>
+      </div>
+    </div> -->
+    <nav class="navbar navbar-expand-sm">
+      <div class="container">
+        <a style="font-size: 25px; font-weight: bold;" class="navbar-brand" href="javascript:void(0)">Medical Hardy</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul style="margin-left: 5%; color: black;" class="navbar-nav ">
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex mx-auto">
+            <li style="list-style: none;" class="nav-item">
+              <a style="color: rgb(150, 187, 124);" class="nav-link" href="javascript:void(0)">login</a>
+            </li>
+            <button style="display: flex; color: white; background-color: rgb(150, 187, 124); padding: 10px 30px;" class="btn">joinUs <span><i style="margin-left: 10px;" class="fa fa-arrow-right"></i></span> </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+     <section>
+    <div class="container">
+      <div class="row">
+        <div style="margin-top: 13%;" class="col-md-6">
+          <p style="color: rgb(150, 187, 124);">Online</p>
+          <h1 style="font-size: 60px; font-weight: bold;">High Quality <br>Courses</h1>
+          <br>
+          <p>Every day bring it with a fresh set of <br> learning possibilities</p>
+          <br>
+          <div class="buttons">
+            <button style="background-color: rgb(150, 187, 124); color: white; padding: 10px 20px; margin-right: 10px;" class="btn"> Get Qoute Know</button>
+            <button style="border: 1px solid rgb(150, 187, 124); color: rgb(150, 187, 124); padding: 10px 25px;" class="btn">Learn More</button>
           </div>
         </div>
-      </nav>
-      <div style="text-align: center;">
-      <h1 style="font-weight: bold; font-size: 100px; color: white;">Welcome</h1>
-      <div class="line"></div>
-      <p style="padding-top: 5px; color: white;">Our restaurant offers full-service dining with breathtaking views <br> seen from our indoor covered patio and our outdoor sundeck.</p>
+        <div class="col-md-6 child">
+          <img style="margin-left: 70px;" src="./assets/hero-cover-1.png" width="100%" height="100%" alt="">
+        </div>
+      </div>
     </div>
-    </section> 
-
-
+  </section> 
+  </section>
+     <section style="margin-top: 15%; margin-left: 15%;">
+      <div class="container">
+        <p style="color: rgb(150, 187, 124); font-size: 12px;">Practise Advise</p>
+          <h1 style="font-size: 40px; font-weight: bold;">Our Popular Courses</h1>
+          <p style="font-size: 10px;">Problem Trying To resolve the conflict between <br> the two major relms of classical physics. Newonian machanics</p>
+      </div>
+     </section>
+      <section style="margin-top: 5%;">
+      <div class="container">
+         <div class="row">
+          <div class="col-md-3">
+            <div class="card container">
+              <br>
+              <img height="30%" width="30%" src="./assets/004-desktop-screen.png" alt="">
+              <br>
+              <h3 class="training">training courses</h3>
+              <br>
+              <p class="hh">the gradual <br>accumalation of <br> information about</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card container">
+              <br>
+              <img height="30%" width="30%" src="./assets/icon cool-icon-l5.svg" alt="">
+              <br>
+              <h3 class="training">training courses</h3>
+              <br>
+              <p class="hh">the gradual <br>accumalation of <br> information about</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div style="background-color:rgb(150, 187, 124); color: white;" class="card container">
+              <br>
+              <img height="30%" width="30%" src="./assets/icon cool-icon-l8.svg" alt="">
+              <br>
+              <h3 class="training">training courses</h3>
+              <br>
+              <p class="hh">the gradual <br>accumalation of <br> information about</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card container">
+              <br>
+              <img height="30%" width="30%" src="./assets/icon cool-icon-l11.svg" alt="">
+              <br>
+              <h3 class="training">training courses</h3>
+              <br>
+              <p class="hh">the gradual <br>accumalation of <br> information about</p>
+            </div>
+          </div>
+         </div>
+      </div>
+    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>

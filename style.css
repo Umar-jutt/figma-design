@@ -1,13 +1,35 @@
-.line::before {
-    display: inline-block;
-    content: '';
-    height: 0;
-    width: 60px;
-    border-top: 3px solid #ffffff;
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.list ul li{
+    margin-right: 10%;
 }
 .list{
-    text-align: center;
+    margin-left: 3%;
+    margin-top: 2%;
 }
-.front{
-    background-image: url('./assets/bg-bunner-2.jpg');
+.nav-back{
+    background-image: url("./assets/background\ sec-.png");
+    height: 500px;
+}
+.hh::before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    background-color: rgb(231, 64, 64);
+    width: 30%;
+    top: 60%;
+} 
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+@media screen and (max-width: 768px){
+    .child{
+        display: none;
+    }
+    .card{
+        margin-top: 20px;
+    }
 }
