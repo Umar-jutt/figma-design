@@ -1,7 +1,5 @@
-*{
-    margin: 0;
-    padding: 0;
-
+p{
+    margin-bottom: 0px !important;
 }
 .list ul li{
     margin-right: 10%;
@@ -21,9 +19,28 @@
     background-color: rgb(231, 64, 64);
     width: 30%;
     top: 60%;
-} 
+}
+.get::before{
+    position: absolute;
+    content: "";
+    height: 5px;
+    background-color: rgb(231, 64, 64);
+    width: 10%;
+
+}
+.card-icon{
+    border-radius: 50%;
+    padding: 15px;
+    background-color: white;
+    
+}
 .card{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.card-star{
+    background-color: aqua;
+    border-radius: 40%;
+    padding: 0;
 }
 @media screen and (max-width: 768px){
     .child{
@@ -31,5 +48,17 @@
     }
     .card{
         margin-top: 20px;
+    }
+    .practise{
+        margin-top: 350px;
+    }
+    .footer{
+        display: none;
+    }
+    .foot{
+        font-size: 10px;
+    }
+    .High{
+        margin-top: 20%;
     }
 }
